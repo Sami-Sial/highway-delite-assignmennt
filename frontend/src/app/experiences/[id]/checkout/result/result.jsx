@@ -18,8 +18,8 @@ export default function Bookingresult() {
       <main className="flex-1 flex items-center justify-center px-4 py-12">
         <div className="text-center space-y-6 max-w-md w-full">
           {/* Green Checkmark */}
-          <div className="mx-auto w-20 h-20 bg-green-100 rounded-full flex items-center justify-center">
-            <Check className="w-12 h-12 text-green-600" />
+          <div className="mx-auto w-15 h-15 bg-green-400 rounded-full flex items-center justify-center">
+            <Check className="w-12 h-12 text-green-900" />
           </div>
 
           {/* Title */}
@@ -29,16 +29,14 @@ export default function Bookingresult() {
 
           {/* Ref ID */}
           <p className=" text-gray-500">
-            <span className="text-xl font-semibold">
-              Ref Id: &nbsp; &nbsp;&nbsp;
-            </span>
-            <span className="font-mono font-medium">{ref}</span>
+            <span className="text-xl font-semibold">Ref Id: </span>
+            <span className="font-mono font-medium"> {ref}</span>
           </p>
 
           {/* Back to Home Button */}
           <Link
             href="/experiences"
-            className="inline-block px-8 py-3 bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium text-sm rounded transition"
+            className="inline-block px-8 py-3 bg-yellow-400 hover:bg-yellow-500 text-gray-700 font-medium text-sm rounded transition"
           >
             Back to Home
           </Link>

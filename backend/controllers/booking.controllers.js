@@ -1,5 +1,6 @@
 const Booking = require("../models/booking.model");
 const Experience = require("../models/experience.model");
+const PromoCode = require("../models/promo-code.model");
 
 exports.createNewBooking = async (req, res) => {
   try {

@@ -4,8 +4,7 @@
 
 Both frontend and backend are deployed on **Vercel**:
 
-* **Frontend (Next.js):** [https://bookit-frontend.vercel.app](https://bookit-frontend.vercel.app)
-* **Backend (Express.js):** [https://bookit-backend.vercel.app](https://bookit-backend.vercel.app)
+* **Frontend (Next.js):** [[https://bookit-frontend.vercel.app](https://highway-delite-assignmennt.vercel.app/experiences)]([https://bookit-frontend.vercel.app](https://highway-delite-assignmennt.vercel.app/experiences))
 
 ## Features
 
